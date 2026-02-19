@@ -1,0 +1,10 @@
+flask
+flask-cors
+sqlalchemy
+flask-sqlalchemy
+pydantic
+psycopg2-binary
+pytest
+requests
+python-dotenv
+openai
