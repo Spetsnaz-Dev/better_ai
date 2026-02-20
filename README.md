@@ -8,7 +8,7 @@ My approach to this assessment was to focus heavily on **production-readiness ov
 
 ---
 
-## 🏗️ Evaluation Criteria Addressed
+## Evaluation Criteria Addressed
 
 Below I have outlined exactly how this project satisfies the assessment's core evaluation criteria:
 
