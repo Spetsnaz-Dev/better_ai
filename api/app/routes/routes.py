@@ -6,6 +6,10 @@ from ..utils.responses import build_error_response
 
 main_bp = Blueprint('main', __name__)
 
+@main_bp.route('/', methods=['GET'])
+def index():
+    return jsonify({"message": "InfraTask API", "endpoints": ["/api/health", "/api/tasks"]}), 200
+
 @main_bp.route('/api/health', methods=['GET'])
 def health_check():
     return jsonify({"status": "ok"}), 200
