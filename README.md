@@ -4,6 +4,9 @@ Welcome to my submission for the Senior Software Engineer (Infrastructure) asses
 
 InfraTask is a minimal, robust task management system where users create tasks, the backend validates the input strictly, an LLM classifies the task category, and the result is safely stored in a relational database.
 
+**Live deployment:** https://better-ai-fe.onrender.com
+
+
 My approach to this assessment was to focus heavily on **production-readiness over feature richness**. The codebase is designed to be observable, testable, and deeply resilient to change, strictly adhering to the mandated architectural boundaries.
 
 ---
